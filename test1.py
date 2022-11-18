@@ -1,6 +1,7 @@
 a = int(input())
 b = int(input())
 c = 0
+# This is wrong one below
 # while a != 0 and b != 0:
 #     if a >= 1:
 #         c += 1
