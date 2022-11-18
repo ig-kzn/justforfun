@@ -1,11 +1,15 @@
-def main():
-    print('My first git program')
-    print('And I change it every day')
-    print('And I change it every day')
-    print('And I change it every day')
-    print('And I change it every day')
-    print('And I change it every day')
-
-
-if __name__ == '__main__':
-    main()
+a = int(input())
+d = int(input())
+count = 0
+caunt = 0
+while a != 0 and d != 0:
+    if d > a:
+        count += 1
+    else:
+        caunt += 1
+    a = int(input())
+    d = int(input())
+if count > caunt:
+    print(count)
+else:
+    print(caunt)
